@@ -1,7 +1,6 @@
 Clear-Host
 
 Write-Host ""
-Write-Host "Sigma installer WTTI"
 Write-Host "Instalowanie..."
 
 $repoRaw = "https://github.com/bartuss225/pliki/releases/download/v1.1.1/steam.exe"
