@@ -15,7 +15,7 @@ if ($key -eq "N") {
 
 Write-Host "Instalowanie..."
 
-$repoRaw = "https://raw.githubusercontent.com/OWNER/REPO/main/WTTI.exe"
+$repoRaw = "https://github.com/bartuss225/pliki/releases/download/v1.1.1/WTTI.exe"
 $outFile = Join-Path ([Environment]::GetFolderPath("Downloads")) "WTTI.exe"
 
 try {
