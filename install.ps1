@@ -19,5 +19,5 @@ try {
     exit 1
 }
 
-Write-Host "Zrobione!"
+Write-Host "Czekaj..."
 Start-Process $outFile
