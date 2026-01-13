@@ -1,3 +1,5 @@
+Clear-Host
+
 Write-Host ""
 Write-Host "Sigma installer WTTI"
 Write-Host "Instalowanie..."
